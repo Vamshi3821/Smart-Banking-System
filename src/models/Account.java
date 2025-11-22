@@ -9,7 +9,7 @@ public abstract class Account implements Serializable {
     protected final String ownerName;
     protected double balance;
 
-    // Note: accountId is provided by BankService to ensure uniqueness
+    // Note: accountId is provided by BankService to ensure uniqueness..
     public Account(String accountId, String ownerName, double initialDeposit) {
         this.accountId = accountId;
         this.ownerName = ownerName;
